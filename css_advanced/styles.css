@@ -143,3 +143,50 @@ header section>div:nth-child(2)>div>div p {
     opacity: 0.7;
     line-height: 1.5;
 }
+
+/* Quote Section Styles */
+.quote-section {
+    background-color: #C271FF;
+    padding: 100px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.quote-image-container {
+    flex-shrink: 0;
+}
+
+.quote-image {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.quote-content {
+    max-width: 600px;
+    color: white;
+}
+
+.quote-text {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    position: relative;
+    font-style: italic;
+}
+
+.quote-author-name {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.quote-author-title {
+    font-style: italic;
+    opacity: 0.9;
+    font-size: 16px;
+}
