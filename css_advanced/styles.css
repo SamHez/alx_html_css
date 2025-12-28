@@ -190,3 +190,125 @@ header section>div:nth-child(2)>div>div p {
     opacity: 0.9;
     font-size: 16px;
 }
+
+/* Tutorials Section Styles */
+.tutorial-section {
+    padding: 100px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #071629;
+}
+
+.tutorial-section h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+
+.tutorial-section h2 span {
+    color: #C271FF;
+    font-weight: 700;
+}
+
+.tutorial-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.tutorial-card {
+    width: 255px;
+}
+
+.tutorial-thumbnail {
+    position: relative;
+    width: 100%;
+    height: 154px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.tutorial-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.play-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.play-overlay img {
+    width: 64px;
+    height: 64px;
+}
+
+.tutorial-info h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.tutorial-info p {
+    font-size: 14px;
+    color: rgba(7, 22, 41, 0.5);
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.tutorial-author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.tutorial-author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.tutorial-author h4 {
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.tutorial-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating {
+    display: flex;
+    gap: 5px;
+}
+
+.rating i {
+    color: #C271FF;
+    font-size: 12px;
+}
+
+.rating i.grey {
+    color: #E2E2E2;
+}
+
+.duration {
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 700;
+}
