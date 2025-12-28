@@ -1,0 +1,145 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./images/Object.png') no-repeat center top;
+    background-size: cover;
+    padding: 30px 0 0;
+    position: relative;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 150px;
+}
+
+header nav img {
+    width: 167px;
+    height: auto;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+header nav ul li a:hover {
+    opacity: 0.9;
+}
+
+/* First Section - Hero */
+header section {
+    text-align: center;
+    padding: 200px 0 100px;
+}
+
+header section>div:first-child {
+    margin-bottom: 120px;
+}
+
+header section h1 {
+    font-size: 120px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+header section>div:first-child>div {
+    margin-bottom: 0;
+}
+
+header section>div:first-child>div span {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 30px;
+    letter-spacing: 0.5px;
+}
+
+header section button {
+    background: linear-gradient(135deg, #C271FF 0%, #C271FF 100%);
+    color: white;
+    border: none;
+    border-radius: 22px;
+    padding: 14px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 38px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+header section button:hover {
+    opacity: 0.9;
+}
+
+/* Learn from the pros section */
+header section>div:nth-child(2) h2 {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+
+header section>div:nth-child(2) h2 span {
+    color: #C271FF;
+    font-weight: 700;
+}
+
+header section>div:nth-child(2)>div {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+header section>div:nth-child(2)>div>div {
+    text-align: center;
+}
+
+header section>div:nth-child(2)>div>div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+header section>div:nth-child(2)>div>div h3 {
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+header section>div:nth-child(2)>div>div p {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    opacity: 0.7;
+    line-height: 1.5;
+}
